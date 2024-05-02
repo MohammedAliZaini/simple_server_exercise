@@ -4,8 +4,8 @@ from flask import Flask, request
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
-def get_home():
-    return "Hello, world!"
+de get_home():
+    ret "Hello, world!"
 
 if __name__ == '__main__':
     app.run(
